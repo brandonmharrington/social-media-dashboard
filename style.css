@@ -304,10 +304,9 @@ body {
 .attribution {
   font-size: 11px;
   position: absolute;
-  left: 50%;
   bottom: 0;
-  transform: translate(-50%, -50%);
 }
+
 .attribution a {
   color: var(--card-text);
 }
