@@ -32,14 +32,18 @@
 /**********************************
             Global
 **********************************/
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 14px;
-  background: var(--bg);
+  background: linear-gradient(var(--top-bg) 280px, var(--bg) 0%);
   color: var(--card-title);
   padding: 22px;
   position: relative;
-  max-width: 80vw;
+  max-width: 70vw;
   margin: 20px auto;
 }
 
@@ -63,6 +67,10 @@ body {
 .down img {
   width: 12px !important;
   margin-right: 6px;
+}
+
+.container {
+  height: 100%;
 }
 
 /**********************************
